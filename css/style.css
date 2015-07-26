@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'old-typewriter';
+    src: url('../font/fzm-old.typewriter-webfont.eot');
+    src: url('../font/fzm-old.typewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fzm-old.typewriter-webfont.woff2') format('woff2'),
+         url('../font/fzm-old.typewriter-webfont.woff') format('woff'),
+         url('../font/fzm-old.typewriter-webfont.ttf') format('truetype'),
+         url('../font/fzm-old.typewriter-webfont.svg#fzm_old_typewriterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p, a, div {
+	color: #FFFFFF;
+
+
+}
+
+a {
+	text-decoration: underline;
+	color: #FFFFFF;
+
+}
+
+a:hover {
+	color: #808080;
+	text-decoration: none;
+
+}
+
+img {
+	border: 2px solid #666666;
+}
+
+label {
+	cursor: pointer !important;
+}
+
+img.book {
+	margin: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+
+.italic, .italics {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.reg {
+
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.book-links a, .merch-links a {
+	margin: 20px;
+}
+
+#content-wrapper {
+
+	position:absolute;
+	padding:20px 0;
+	left: 150px;
+	width: 86%;
+	min-height: 908px;
+	font-family: old-typewriter, Tahoma, Verdana, Segoe, sans-serif;
+
+}
+
+
+#nav  {
+
+    background-color: #000000;
+    float: left;
+    font-family: old-typewriter,Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 1.3em;
+    height: 100%;
+    position: relative;
+    width: 265px;
+
+
+}
+
+#nav a {
+
+	text-decoration: none;
+	color: #FFFFFF;
+	width:250px;
+
+}
+
+#nav ul a, #nav ul ul a {
+	border-bottom: 1px solid #ffffff !important;
+}
+
+#nav a:hover {
+
+	background-color: #ffffff;
+	color: #000000;
+
+}
+
+#nav a:visited {
+
+}
+
+#nav ul {
+
+	position:relative;
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+#nav ul a {
+
+	display: block; /* to make the whole area of link clickable */
+	height: 51.3px;
+	width:265px;
+	line-height: 70px; /* aligns text to bottom 50px=center */
+	zoom:1; /* for IE bug */
+	text-align: left;
+	padding: 0 10px;
+	position: relative;
+}
+
+#nav ul a.fshow {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    display: block;
+    position: relative;
+}
+
+#nav ul a.lloud-link {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    display: block;
+    position: relative;
+}
+
+#nav ul a.praise-link {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    display: block;
+    position: relative;
+}
+
+
+#nav ul a.secret-link {
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: block;
+    position: relative;
+}
+
+#nav ul ul a {
+	position: relative;
+/*text-indent: 25px;*/
+padding-left: 30px;
+}
+
+
+
+#nav ul li.last-nav:last-child a {
+  border-bottom:none !important;
+}
+
+
+
+.current-page a {
+	font-weight: bold;
+	color: #8A887C !important;
+}
+
+#main-content {
+	position: relative;
+	float: left;
+
+	background-color: #000000;
+	width: 78%;
+	/*width: 1614px;*/
+	height: 100%;
+    font-family: old-typewriter, Tahoma, Verdana, Segoe, sans-serif;
+
+}
+
+#main-content div[id$='-page'] {
+	padding: 0 25px;
+}
+
+
+#main-content #home-page, #main-content #contact-page, #main-content #merch-page, #main-content div[id$='-page'], #main-content div[id$='-page'] h1 {
+	text-align: center;
+}
+
+.align-center {
+	text-align: center !important;
+
+}
+
+
+
+#main-content #bio-page, #main-content #program-page, #main-content #pub-page, #main-content #aboutbook-page, #main-content #praise-page, #main-content #coming-soon-page, #main-content div[id^='programs-'], .left-align {
+	text-align: left;
+}
+
+.align-left {
+	text-align: left !important;
+}
+
+
+#main-content div[id$='-page'] {
+    min-height: 1023px;
+}
+
+#main-content #praise-page p {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#main-content div {
+	position: relative;
+	height: 100%;
+}
+
+
+.image-set p {
+
+	margin-left:250px;
+	margin-right: 250px;
+
+}
+
+
+#fshow-page img {
+    height: 200px;
+    width: 215px;
+}
+
+
+.fshow-imgset {
+    float: left;
+    margin: 30px;
+}
+
+.fshow-imgset p {
+	width: 240px;
+}
+
+
+#main-content #greyg-page, #main-content #amfam-page {
+	position: relative;
+    margin: 10px 0;
+}
+
+
+
+
+/*
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	#content-wrapper {
+		position: relative;
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	#main-content {
+		width: 200px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav {
+		width: 155px;
+		font-size: 0.7em;
+		margin: 0;
+		padding: 0;
+	}
+
+	#nav a.fshow {
+		display: table-cell !important;
+		line-height: 0.7em;;
+	}
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+*/
